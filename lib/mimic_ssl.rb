@@ -35,7 +35,7 @@ module MimicSsl
         end
       end
     end
-    ::ActionController::AbstractRequest.send :include, AbstractRequest
+    ::ActionController::Request.send :include, AbstractRequest
     
   end
 
